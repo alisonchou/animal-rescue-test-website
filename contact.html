@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Twin Cities Animal Rescue</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <h1>Contact - Twin Cities Animal Rescue</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <h2>Volunteer, Adopt, or Foster Inquiry Form</h2>
+      <p>Complete our form and a team member will follow up.</p>
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="interest">What are you interested in?</label><br>
+          <select id="interest" name="interest" required>
+            <option value="">Choose an interest</option>
+            <option value="volunteer">Volunteering</option>
+            <option value="foster">Fostering</option>
+            <option value="adoption">Adoption</option>
+            <option value="donate">Donating</option>
+          </select>
+        </p>
+        <fieldset>
+          <legend>Availability</legend>
+          <label for="weekday">
+            <input type="checkbox" id="weekday" name="availability" value="weekdays">
+            Weekdays
+          </label>
+          <label for="weekends">
+            <input type="checkbox" id="weekends" name="availability" value="weekends">
+            Weekends
+          </label>
+          <label for="flexible">
+            <input type="checkbox" id="flexible" name="availability" value="flexible">
+            Flexible
+          </label>
+        </fieldset>
+        <p>
+          <label for="experience">Experience with pets</label><br>
+          <select id="experience" name="experience">
+            <option value="">Select an option</option>
+            <option value="new">New</option>
+            <option value="some">Some experience</option>
+            <option value="experienced">Experienced</option>
+            <option value="professional">Professional</option>
+          </select>
+        </p>
+        <p>
+          <label for="message">Short message</label><br>
+          <textarea id="message" name="message" rows="4" cols="40" placeholder="Add any additional information."></textarea>
+        </p>
+        <p><button type="submit">Submit</button></p>
+      </form>
+    </section>
+
+    <section>
+      <h2>Service area</h2>
+      <p>We operate throughout Minneapolis, Saint Paul, and surrounding Twin Cities communities.</p>
+    </section>
+
+    <section>
+      <h2>Office hours</h2>
+      <p>We are open on Monday to Friday, from 9 a.m. to 5 p.m.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Twin Cities Animal Rescue - Established 2016</p>
+  </footer>
+</body>
+</html>
