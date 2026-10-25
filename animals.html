@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animals | Twin Cities Animal Rescue</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="animals.js" defer></script>
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+  <header>
+    <h1>Animals - Twin Cities Animal Rescue</h1>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="animals.html" aria-current="page">Animals</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section>
+      <h2>Meet our furry friends!</h2>
+      <ul id="animal-list" class="animal-list"></ul>
+    </section>
+
+    <section id="favorites">
+      <h2>Favorites (<span id="favorites-total">0</span>)</h2>
+      <p id="no-favorites">Save animals above to your favorites!</p>
+      <ul id="favorites-list" class="favorites-list longer-cards"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Twin Cities Animal Rescue - Established 2016</p>
+  </footer>
+</body>
+</html>
